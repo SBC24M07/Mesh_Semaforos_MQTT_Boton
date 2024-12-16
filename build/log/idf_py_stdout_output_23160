@@ -1,0 +1,93 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\damia\workspace\Mesh_Semaforos_MQTT_Pulsador\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ota_app.c.obj
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable mesh_semaforos_mqtt_pulsador.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/mesh_semaforos_mqtt_pulsador.bin
+[7/8] cmd.exe /C "cd /D C:\Users\damia\workspace\Mesh_Semaforos_MQTT_Pulsador\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/partition_table/partition-table.bin C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/mesh_semaforos_mqtt_pulsador.bin"
+mesh_semaforos_mqtt_pulsador.bin binary size 0x10ded0 bytes. Smallest app partition is 0x12c000 bytes. 0x1e130 bytes (10%) free.
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.3.1\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.3.1 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/desptool.py --chip esp32 -p COM7 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 mesh_semaforos_mqtt_pulsador.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM7
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a8:42:e3:cd:71:d0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0011dfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26752 bytes to 16359...
+Writing at 0x00001000... (100 %)
+Wrote 26752 bytes (16359 compressed) at 0x00001000 in 0.5 seconds (effective 397.8 kbit/s)...
+Hash of data verified.
+Compressed 1105616 bytes to 725516...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001d24f... (4 %)
+Writing at 0x0002baa6... (6 %)
+Writing at 0x00032be5... (8 %)
+Writing at 0x00037d9c... (11 %)
+Writing at 0x000436ea... (13 %)
+Writing at 0x00049979... (15 %)
+Writing at 0x0004f076... (17 %)
+Writing at 0x00054cdc... (20 %)
+Writing at 0x0005a29a... (22 %)
+Writing at 0x0005fa4a... (24 %)
+Writing at 0x00064a9e... (26 %)
+Writing at 0x00069f35... (28 %)
+Writing at 0x0006f3b6... (31 %)
+Writing at 0x000744cc... (33 %)
+Writing at 0x00079bfc... (35 %)
+Writing at 0x0007f478... (37 %)
+Writing at 0x00084736... (40 %)
+Writing at 0x0008a5ad... (42 %)
+Writing at 0x0008fc53... (44 %)
+Writing at 0x00095286... (46 %)
+Writing at 0x0009a5ab... (48 %)
+Writing at 0x0009fe38... (51 %)
+Writing at 0x000a52fe... (53 %)
+Writing at 0x000aa8a6... (55 %)
+Writing at 0x000affbb... (57 %)
+Writing at 0x000b5552... (60 %)
+Writing at 0x000ba998... (62 %)
+Writing at 0x000c04ab... (64 %)
+Writing at 0x000c5618... (66 %)
+Writing at 0x000caa53... (68 %)
+Writing at 0x000cff5e... (71 %)
+Writing at 0x000d53c7... (73 %)
+Writing at 0x000da9e1... (75 %)
+Writing at 0x000e02b5... (77 %)
+Writing at 0x000e5d09... (80 %)
+Writing at 0x000ead21... (82 %)
+Writing at 0x000efe0f... (84 %)
+Writing at 0x000f5544... (86 %)
+Writing at 0x000faf26... (88 %)
+Writing at 0x00101f32... (91 %)
+Writing at 0x0010bce2... (93 %)
+Writing at 0x0011148a... (95 %)
+Writing at 0x00117107... (97 %)
+Writing at 0x0011c3b1... (100 %)
+Wrote 1105616 bytes (725516 compressed) at 0x00010000 in 16.6 seconds (effective 532.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 106...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (106 compressed) at 0x00008000 in 0.0 seconds (effective 984.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+amia/workspace/Mesh_Semaforos_MQTT_Pulsador/build -P C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py/run_serial_tool.cmake"

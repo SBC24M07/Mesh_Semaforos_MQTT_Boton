@@ -1,0 +1,142 @@
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/sdkconfig
+Loading defaults file C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- App "mesh_semaforos_mqtt_pulsador" version: 1
+-- Adding linker script C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.3.1/components/app_trace C:/Espressif/frameworks/esp-idf-v5.3.1/components/app_update C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.3.1/components/bt C:/Espressif/frameworks/esp-idf-v5.3.1/components/cmock C:/Espressif/frameworks/esp-idf-v5.3.1/components/console C:/Espressif/frameworks/esp-idf-v5.3.1/components/cxx C:/Espressif/frameworks/esp-idf-v5.3.1/components/driver C:/Espressif/frameworks/esp-idf-v5.3.1/components/efuse C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_coex C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_common C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ana_cmpr C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_cam C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_dac C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_gpio C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_gptimer C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_i2c C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_i2s C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_isp C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_jpeg C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ledc C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_mcpwm C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_parlio C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_pcnt C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_ppa C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_rmt C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdio C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdm C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdmmc C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_sdspi C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_spi C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_touch_sens C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_tsens C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_uart C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_driver_usb_serial_jtag C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_event C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_netif_stack C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_vfs_console C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.3.1/components/espcoredump C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.3.1/components/fatfs C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos C:/Espressif/frameworks/esp-idf-v5.3.1/components/hal C:/Espressif/frameworks/esp-idf-v5.3.1/components/heap C:/Espressif/frameworks/esp-idf-v5.3.1/components/http_parser C:/Espressif/frameworks/esp-idf-v5.3.1/components/idf_test C:/Espressif/frameworks/esp-idf-v5.3.1/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.3.1/components/json C:/Espressif/frameworks/esp-idf-v5.3.1/components/log C:/Espressif/frameworks/esp-idf-v5.3.1/components/lwip C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/main C:/Espressif/frameworks/esp-idf-v5.3.1/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.3.1/components/mqtt C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib C:/Espressif/frameworks/esp-idf-v5.3.1/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.3.1/components/nvs_sec_provider C:/Espressif/frameworks/esp-idf-v5.3.1/components/openthread C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table C:/Espressif/frameworks/esp-idf-v5.3.1/components/perfmon C:/Espressif/frameworks/esp-idf-v5.3.1/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.3.1/components/protocomm C:/Espressif/frameworks/esp-idf-v5.3.1/components/pthread C:/Espressif/frameworks/esp-idf-v5.3.1/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.3.1/components/soc C:/Espressif/frameworks/esp-idf-v5.3.1/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.3.1/components/spiffs C:/Espressif/frameworks/esp-idf-v5.3.1/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.3.1/components/ulp C:/Espressif/frameworks/esp-idf-v5.3.1/components/unity C:/Espressif/frameworks/esp-idf-v5.3.1/components/usb C:/Espressif/frameworks/esp-idf-v5.3.1/components/vfs C:/Espressif/frameworks/esp-idf-v5.3.1/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.3.1/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.3.1/components/wpa_supplicant C:/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build
+[0/1] Re-running CMake...
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ota_app.c.obj
+C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/main/ota_app.c: In function 'ota_update':
+C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/main/ota_app.c:58:35: warning: passing argument 1 of 'esp_https_ota' from incompatible pointer type [-Wincompatible-pointer-types]
+   58 |     esp_err_t ret = esp_https_ota(&config);
+      |                                   ^~~~~~~
+      |                                   |
+      |                                   esp_http_client_config_t *
+In file included from C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/main/ota_app.c:4:
+C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_https_ota/include/esp_https_ota.h:99:55: note: expected 'const esp_https_ota_config_t *' but argument is of type 'esp_http_client_config_t *'
+   99 | esp_err_t esp_https_ota(const esp_https_ota_config_t *ota_config);
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[2/10] Linking C static library esp-idf\main\libmain.a
+[3/10] Performing build step for 'bootloader'
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.3.1/components/efuse C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_common C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_system C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos C:/Espressif/frameworks/esp-idf-v5.3.1/components/hal C:/Espressif/frameworks/esp-idf-v5.3.1/components/log C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/main C:/Espressif/frameworks/esp-idf-v5.3.1/components/bootloader/subproject/components/micro-ecc C:/Espressif/frameworks/esp-idf-v5.3.1/components/newlib C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table C:/Espressif/frameworks/esp-idf-v5.3.1/components/soc C:/Espressif/frameworks/esp-idf-v5.3.1/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.3.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/bootloader
+[0/1] Re-running CMake...
+[1/1] cmd.exe /C "cd /D C:\Users\damia\workspace\Mesh_Semaforos_MQTT_Pulsador\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable mesh_semaforos_mqtt_pulsador.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/mesh_semaforos_mqtt_pulsador.bin
+[7/8] cmd.exe /C "cd /D C:\Users\damia\workspace\Mesh_Semaforos_MQTT_Pulsador\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/partition_table/partition-table.bin C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build/mesh_semaforos_mqtt_pulsador.bin"
+mesh_semaforos_mqtt_pulsador.bin binary size 0x10deb0 bytes. Smallest app partition is 0x12c000 bytes. 0x1e150 bytes (10%) free.
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.3.1\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.3.1 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=esptool.py --chip esp32 -p COM7 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 mesh_semaforos_mqtt_pulsador.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM7
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a8:42:e3:cd:71:d0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0011dfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26752 bytes to 16359...
+Writing at 0x00001000... (100 %)
+Wrote 26752 bytes (16359 compressed) at 0x00001000 in 0.5 seconds (effective 397.0 kbit/s)...
+Hash of data verified.
+Compressed 1105584 bytes to 725475...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001d24f... (4 %)
+Writing at 0x0002baac... (6 %)
+Writing at 0x00032be2... (8 %)
+Writing at 0x00037da2... (11 %)
+Writing at 0x000436fc... (13 %)
+Writing at 0x0004998e... (15 %)
+Writing at 0x0004f07a... (17 %)
+Writing at 0x00054cd9... (20 %)
+Writing at 0x0005a29a... (22 %)
+Writing at 0x0005fa45... (24 %)
+Writing at 0x00064a9e... (26 %)
+Writing at 0x00069f2a... (28 %)
+Writing at 0x0006f3ad... (31 %)
+Writing at 0x000744dd... (33 %)
+Writing at 0x00079bf9... (35 %)
+Writing at 0x0007f48e... (37 %)
+Writing at 0x00084742... (40 %)
+Writing at 0x0008a5d7... (42 %)
+Writing at 0x0008fc76... (44 %)
+Writing at 0x0009529f... (46 %)
+Writing at 0x0009a5be... (48 %)
+Writing at 0x0009fe47... (51 %)
+Writing at 0x000a5317... (53 %)
+Writing at 0x000aa8b3... (55 %)
+Writing at 0x000affca... (57 %)
+Writing at 0x000b5562... (60 %)
+Writing at 0x000ba9aa... (62 %)
+Writing at 0x000c04c6... (64 %)
+Writing at 0x000c5624... (66 %)
+Writing at 0x000caa62... (68 %)
+Writing at 0x000cff73... (71 %)
+Writing at 0x000d53cf... (73 %)
+Writing at 0x000da9ee... (75 %)
+Writing at 0x000e02cd... (77 %)
+Writing at 0x000e5d19... (80 %)
+Writing at 0x000ead2f... (82 %)
+Writing at 0x000efe20... (84 %)
+Writing at 0x000f5557... (86 %)
+Writing at 0x000faf39... (88 %)
+Writing at 0x00101f42... (91 %)
+Writing at 0x0010bd01... (93 %)
+Writing at 0x0011149d... (95 %)
+Writing at 0x00117119... (97 %)
+Writing at 0x0011c3be... (100 %)
+Wrote 1105584 bytes (725475 compressed) at 0x00010000 in 16.6 seconds (effective 531.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 106...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (106 compressed) at 0x00008000 in 0.0 seconds (effective 960.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/damia/workspace/Mesh_Semaforos_MQTT_Pulsador/build -P C:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py/run_serial_tool.cmake"
